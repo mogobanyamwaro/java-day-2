@@ -1,3 +1,5 @@
+import javax.print.event.PrintJobListener;
+
 /**
  * Main
  */
@@ -13,14 +15,26 @@
 /**
  * Main
  */
+
+// public class Main {
+
+//     public static void main(String[] args) {
+//         double z = 1.1;
+//         double y = z +2;
+//         String x = "1";
+//         int p = Integer.parseInt(x) + 3;
+//         System.out.println(y);
+
+//     }
+// }
+
+/**
+ * Main
+ */
 public class Main {
 
     public static void main(String[] args) {
-        double z = 1.1;
-        double y = z +2;
-        String x = "1";
-        int p = Integer.parseInt(x) + 3;
-        System.out.println(y);
-
+        double result = Math.random() *100;
+        System.out.println(result);
     }
 }
