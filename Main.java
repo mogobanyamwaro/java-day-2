@@ -1,3 +1,5 @@
+import java.text.NumberFormat;
+
 import javax.print.event.PrintJobListener;
 
 /**
@@ -31,10 +33,23 @@ import javax.print.event.PrintJobListener;
 /**
  * Main
  */
+// public class Main {
+
+//     public static void main(String[] args) {
+//         double result = Math.random() *100;
+//         System.out.println(result);
+//     }
+// }
+
+/**
+ * Main
+ */
 public class Main {
 
     public static void main(String[] args) {
-        double result = Math.random() *100;
+        // NumberFormat currency = new NumberFormat();
+        NumberFormat currency =NumberFormat.getCurrencyInstance();
+        String result = currency.format(122345688.981);
         System.out.println(result);
     }
 }
